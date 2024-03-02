@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+.calculator {
+  /* border: 1px solid black; */
+  width: 270px;
+}
+#screen {
+  border: 2px solid black;
+  /* outline: none; */
+  width: 97%;
+  height: 50px;
+  text-align: right;
+  font-size: 20px;
+  text-align: right;
+}
+.row {
+  display: flex;
+}
+button {
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  border-top: 0;
+  border-right: 0;
+  cursor: pointer;
+  background-color: rgb(245, 249, 250);
+}
+button:hover {
+  background-color: rgb(189, 202, 205);
+}
+.operator {
+  background-color: rgb(242, 247, 107);
+  border-right: 1px solid black;
+}
+.operator:hover {
+  background-color: rgb(236, 241, 94);
+}
